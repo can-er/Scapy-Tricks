@@ -1,6 +1,6 @@
 import scapy.all
 
-print("L'adresse IP ciblée risque de ne plus répondre lors de cette attaque".)
+print("L'adresse IP ciblée risque de ne plus répondre lors de cette attaque.")
 
 dst_ip = input("Entrez l'IP ciblée: ")
 src_ip = scapy.all.RandIP()
